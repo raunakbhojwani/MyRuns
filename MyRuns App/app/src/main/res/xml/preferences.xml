@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- First category in Settings - Account Preferences -->
+    <PreferenceCategory
+        android:title="@string/ui_account_preferences_header">
+
+        <PreferenceScreen
+            android:key="user_profile_settings"
+            android:title="@string/user_profile"
+            android:summary="@string/user_profile_prompt">
+            <intent android:action="open.profile.activity" />
+        </PreferenceScreen>
+
+        <CheckBoxPreference
+            android:key="privacy_settings"
+            android:title="@string/privacy_settings"
+            android:summary="@string/privacy_settings_prompt">
+        </CheckBoxPreference>
+
+    </PreferenceCategory>
+
+    <!-- Second category in Settings - Additional Settings -->
+    <PreferenceCategory
+        android:title="@string/ui_additional_settings_header">
+
+        <ListPreference
+            android:key="unit_preference_settings"
+            android:title="@string/unit_preference"
+            android:summary="@string/unit_preference_prompt"
+            android:entries="@array/unit_preferences_array"
+            android:entryValues="@array/entry_values_array"
+            android:dialogTitle="@string/unit_preference_dialog_title" >
+        </ListPreference>
+
+        <EditTextPreference
+            android:key="comments_settings"
+            android:title="@string/comments"
+            android:summary="@string/comments_prompt"
+            android:dialogTitle="@string/comments_dialog_title" >
+        </EditTextPreference>
+
+    </PreferenceCategory>
+
+    <!-- Final category in Settings - Miscellaneous -->
+    <PreferenceCategory
+        android:title="@string/miscellaneous">
+
+        <PreferenceScreen
+            android:key="webpage_settings"
+            android:title="@string/webpage"
+            android:summary="@string/webpage_prompt">
+            <intent android:action="android.intent.action.VIEW"
+                android:data="http://web.cs.dartmouth.edu/"/>
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

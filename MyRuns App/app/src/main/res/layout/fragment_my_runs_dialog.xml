@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.dartmouth.cs.raunakbhojwani.myruns.MyRunsDialogFragment"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:id="@+id/dialog_layout">
+
+    <TextView
+        android:id="@+id/dialog_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <!-- EditText in order to throw up different dialog texts as needed -->
+    <EditText
+        android:id="@+id/dialog_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <requestFocus />
+    </EditText>
+
+</LinearLayout>

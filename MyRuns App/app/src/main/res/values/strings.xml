@@ -1,0 +1,85 @@
+<resources>
+
+
+    <string name="app_name">MyRuns2</string>
+
+    <!-- Strings needed for ProfileActivity -->
+    <string name="ui_profile_picture_header">Profile Picture</string>
+    <string name="ui_profile_picture_description">Your Profile Picture:</string>
+
+    <string name="ui_save_button_header">Save</string>
+    <string name="ui_cancel_button_header">Cancel</string>
+    <string name="ui_change_button_header">Change</string>
+
+    <string name="ui_user_name_header">Full Name</string>
+    <string name="ui_user_email_header">Email Address</string>
+    <string name="ui_user_phone_header">Phone Number</string>
+    <string name="ui_user_gender_header">Gender</string>
+    <string name="ui_user_class_header">Class Year</string>
+    <string name="ui_user_major_header">Major</string>
+
+
+    <string name="user_name">Your Full Name</string>
+    <string name="user_email">Your Email Address</string>
+    <string name="user_phone">Your Phone Number</string>
+    <string name="user_female">Female</string>
+    <string name="user_male">Male</string>
+    <string name="user_class">Your Class Year eg. 2018</string>
+    <string name="user_major">Your Major(s)</string>
+
+    <string name="menu_settings">Settings</string>
+
+    <!-- Strings needed for StartFragment -->
+    <string name="ui_input_type_header">Input Type</string>
+    <string name="ui_activity_type_header">Activity Type</string>
+    <string name="ui_start_button_header">Start</string>
+    <string name="ui_sync_button_header">Sync</string>
+
+    <!-- Strings needed for SettingsFragment -->
+    <string name="ui_account_preferences_header">Account Preferences</string>
+
+    <string name="user_profile">Name, Email, Class, etc.</string>
+    <string name="user_profile_prompt">User Profile</string>
+
+    <string name="privacy_settings">Privacy Settings</string>
+    <string name="privacy_settings_prompt">Posting your records anonymously</string>
+
+    <string name="ui_additional_settings_header">Additional Settings</string>
+
+    <string name="unit_preference">Unit Preference</string>
+    <string name="unit_preference_prompt">Select the units</string>
+    <string name="unit_preference_dialog_title">Unit Preference</string>
+     
+    <string name="comments">Comments</string>
+    <string name="comments_prompt">Please enter your comments</string>
+    <string name="comments_dialog_title">Comments</string>
+
+    <string name="miscellaneous">Misc.</string>
+    <string name="webpage">Webpage</string>
+    <string name="webpage_prompt">http://web.cs.dartmouth.edu/</string>
+
+    <!-- Strings needed for GPSActivity -->
+    <string name="map">Map</string>
+
+    <!-- Strings needed for ManualEntryActivity -->
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="duration">Duration</string>
+    <string name="distance">Distance</string>
+    <string name="calories">Calories</string>
+    <string name="heart_rate">Heart Rate</string>
+    <string name="comment">Comment</string>
+
+    <!-- Strings needed for MyRunsDialogFragment -->
+    <string name="okay">OK</string>
+
+    <!-- Strings needed for HistoryFragment -->
+    <string name="date_and_time">Date and Time</string>
+    <string name="delete">DELETE</string>
+    <string name="metric">Metric (Kilometers)</string>
+
+    <!-- Strings needed for GPSActivity -->
+    <string name="title_activity_gps">Map</string>
+
+
+</resources>
